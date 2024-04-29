@@ -1,0 +1,17 @@
+TEMA 1:
+para compilar: 
+	gcc Tema_1.c -o proceso -lm
+para ejecutar:
+	./proceso 7 5,4,8,9,3,1,4,7,8,9,5,4,8,7,9,6
+
+TEMA 2 programa 1:
+para compilar:
+	gcc Tema_2_Prog1.c -o Tema_2a
+para ejecutar:
+	./Tema_2a
+
+TEMA 2 programa 2:
+para compilar:
+	gcc Tema_2_Prog2.c -o Tema_2b
+para ejecutar:
+	./Tema_2b	
