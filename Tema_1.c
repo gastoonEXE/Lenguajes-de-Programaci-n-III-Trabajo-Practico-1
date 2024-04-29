@@ -428,7 +428,7 @@ int main(int argc, char *argv[]) {
         for(j=2*izq[i][0];j<2*maxizq;j++){
             printf(" ");
         }
-        printf("\t-\t[%d",izq[i][j]);
+        printf("\t-\t[",izq[i][j]);
 
         for (j = 1; j < der[i][0]; j++) {
             printf("%d,",der[i][j]);
@@ -437,7 +437,7 @@ int main(int argc, char *argv[]) {
         for(j=2*izq[i][0];j<2*maxizq;j++){
             printf(" ");
         }
-        printf("\t==>\t[%d",der[i][j]);
+        printf("\t==>\t[",der[i][j]);
 
         for (j = 1; j < proc[i][0]; j++) {
             printf("%d,",proc[i][j]);
