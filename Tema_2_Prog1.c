@@ -39,6 +39,7 @@ int main(){
     pid = fork();     
     if (pid==0){
       sleep(tabla[aviso_actual].segundos);    //dormimos el proceso de acuerdo al dato segundos
+      kill(tabla[aviso_actual].senal,tabla[aviso_actual].procesoID);          //se agrego un kill
       printf("Tardo %d segundos, tengo el id: %d y la senal: %d\n",tabla[aviso_actual].segundos,tabla[aviso_actual].procesoID,tabla[aviso_actual].senal);
       kill(getpid(),SIGTERM);    //una vez que realiza el printf terminamos el proceso hijo
     }
